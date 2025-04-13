@@ -3,16 +3,9 @@
 
 This project explores the capabilities of diffusion models for **face age editing** — generating realistic, identity-preserving images of individuals at different ages. We aim to fine-tune and evaluate various diffusion-based generative models on high-quality, age-labeled facial datasets to understand their performance and limitations.
 
-## 👥 Team
-
-- **Dinh Quoc Vuong** – Sophomore, Data Science  
-- **Shashwat Negi** – Graduate Student, Data Science  
-- **Ian Franda** – Senior, Statistics, Math, Computer Science  
-- **Juncheng Long** – Senior, Statistics, Math, Data Science
-
 ## 🎯 Objectives
 
-- Fine-tune multiple diffusion models (e.g., DDPM, Improved-DDPM) for the task of face age editing.
+- Fine-tune multiple diffusion models (e.g., DDPM, Improved-DDPM, DDIM) and pipelines for the task of face age editing.
 - Compare architectural differences and their impact on aging realism and accuracy.
 - Evaluate performance using metrics like FID, IS, and MAE.
 
@@ -42,7 +35,7 @@ Diffusion models have recently outperformed GANs in generative tasks, particular
 
 ## 🤝 Collaboration Plan
 
-Team members will contribute equally across:
+Team members contributed equally across:
 - Model development  
 - Data preprocessing  
 - Metric implementation  
